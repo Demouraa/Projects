@@ -1,0 +1,13 @@
+.topBar {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0px;
+}
+
