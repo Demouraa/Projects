@@ -1,10 +1,7 @@
 function functionWithArgs(a,b) {
-    let c = a + b
-    return c
+    console.log(a + b)
   }
   
-  let a = functionWithArgs(1,2);
-  let b = functionWithArgs(7,9);
-  
-  console.log(a);
-  console.log(b);
+let b = functionWithArgs(7,9);
+let a = functionWithArgs(1,2);
+
