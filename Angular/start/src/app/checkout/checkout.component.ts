@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
-import { products } from '../products';
+import { products, Product } from '../products';
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html', 
-  styleUrls: ['./product-list.component.css']
+  selector: 'app-checkout',
+  templateUrl: './checkout.component.html',
+  styleUrls: ['./checkout.component.css']
 })
-export class ProductListComponent implements OnInit {
+export class CheckoutComponent implements OnInit {
   products = products!;
 
   constructor() { }
