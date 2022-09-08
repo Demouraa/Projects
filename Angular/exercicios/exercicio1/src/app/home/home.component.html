@@ -1,3 +1,16 @@
 <p>home works!</p>
 <h1>HOME WORKS</h1>
-<a routerLink="/Second">link</a>
+<p><a routerLink="/Second">link</a></p>
+
+
+<button (click)="getPost()">
+    chamar API
+</button>
+
+<div *ngFor="let post of posts | async">
+
+    <p>Id: {{post.id}}</p>
+    <p>UserId: {{post.userId}}</p>
+    <p>title: {{post.title}}</p>
+    <p>bod: {{post.body}}</p>
+</div>
