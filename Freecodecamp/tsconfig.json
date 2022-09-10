@@ -1,0 +1,7 @@
+{
+    "compoilerptions": {
+        "target": "esnext",
+        "watch": true,
+        "lib": ["dom", "es2018"]
+    }
+}
