@@ -22,15 +22,19 @@ Modify the function checkObj to test if an object passed to the function (obj) c
 
 function checkObj(obj, checkProp) {
   // Only change code below this line
-  let verify = obj.hasOwnProperty(checkProp);
+  let verify = obj[122].hasOwnProperty(checkProp);
   if(verify === true) {
-    return obj[checkProp];
+    return obj[122][checkProp];
   }
   return "Not Found";
   // Only change code above this line
 }
 
-let object = {gift: "pony", pet: "kitten", bed: "sleigh"};
+let object = {
+  122: {
+    gift: "pony", pet: "kitten", bed: "sleigh"
+  }
+};
 
 
 console.log(checkObj(object, "gift"));
